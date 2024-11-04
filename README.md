@@ -24,6 +24,16 @@ Bugs have been fixed, and the code has been updated to Node 22 LTS, with Postgre
 
 (9) npm run dev [Starts Express Backend]
 
+## Useful Links
+
+[React Typescipt](https://create-react-app.dev/docs/adding-typescript/)
+
+[React TypeScript Cheatsheet](https://github.com/typescript-cheatsheets/react#reacttypescript-cheatsheets)
+
+[TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+
+[Tailwind CC](https://tailwindcss.com/docs/guides/create-react-app)
+
 
 ## Available Scripts
 
