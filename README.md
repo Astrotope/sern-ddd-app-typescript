@@ -2,6 +2,23 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+(1) git clone https://github.com/Astrotope/sern-ddd-app-typescript.git
+
+(2) cd sern-ddd-app-typescript
+
+(3) npm install
+
+(4) npm start (in a new terminal, in this folder) [Starts React Frontend]
+
+(5) cd node-backend
+
+(6) npm install
+
+(7) docker compose up & [Starts PostgreSQL]
+
+(8) npm run dev [Starts Express Backend]
+
+
 ## Available Scripts
 
 In the project directory, you can run:
