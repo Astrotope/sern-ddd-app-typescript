@@ -4,7 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The code is based on [Tutorial Fullstack: React Typescript + NodeJS Express + PostgreSQL](https://www.tutofox.com/react/tutorial-fullstack-react-typescript-nodejs-express-postgresql/)
 
-Bugs have been fixed, and the code has been updated to Node 22 LTS, with PostgreSQL added via Docker.
+Bugs have been fixed, and the code has been updated to Node 22 LTS.
+
+I have also dockerised the app into three services, db [PostgrSQL], backend [Express, Sequalize], frontend [React, Tailwind, SweetAlert].
+
+You will need node 22 LTS, nvm, npm, and docker installed.
 
 (1) git clone https://github.com/Astrotope/sern-ddd-app-typescript.git
 
@@ -12,17 +16,7 @@ Bugs have been fixed, and the code has been updated to Node 22 LTS, with Postgre
 
 (3) cd sern-ddd-app-typescript
 
-(4) npm install
-
-(5) npm start (in a new terminal, in this folder) [Starts React Frontend]
-
-(6) cd node-backend
-
-(7) npm install
-
-(8) docker compose up & [Starts PostgreSQL]
-
-(9) npm run dev [Starts Express Backend]
+(8) docker compose up
 
 ## Useful Links
 

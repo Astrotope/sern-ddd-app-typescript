@@ -20,7 +20,7 @@ export const Form = () => {
     const personService = new PersonService();
   
     const setFormValue = (event:React.ChangeEvent<HTMLInputElement>) => { 
-        dispatch(setData({ ... person.data, [event.target.id]: event.target.value }))
+        dispatch(setData({ ...person.data, [event.target.id]: event.target.value }))
 	}
 
     const isValidForm = ( ) => {
@@ -70,7 +70,7 @@ export const Form = () => {
             // for clean form
             dispatch(setData(new Person()))
             // add item
-            const dataArray:IPerson[] = [ ... person.list ]
+            const dataArray:IPerson[] = [ ...person.list ]
             dataArray.push(data)
             dispatch(setPersons(dataArray))
 
