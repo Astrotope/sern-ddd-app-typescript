@@ -1,22 +1,28 @@
-# Getting Started with Create React App
+# Fullstack: React Typescript + NodeJS Express + PostgreSQL
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The code is based on [Tutorial Fullstack: React Typescript + NodeJS Express + PostgreSQL](https://www.tutofox.com/react/tutorial-fullstack-react-typescript-nodejs-express-postgresql/)
+
+Bugs have been fixed, and the code has been updated to Node 22 LTS, with PostgreSQL added via Docker.
+
 (1) git clone https://github.com/Astrotope/sern-ddd-app-typescript.git
 
-(2) cd sern-ddd-app-typescript
+(2) nvm use 22
 
-(3) npm install
+(3) cd sern-ddd-app-typescript
 
-(4) npm start (in a new terminal, in this folder) [Starts React Frontend]
+(4) npm install
 
-(5) cd node-backend
+(5) npm start (in a new terminal, in this folder) [Starts React Frontend]
 
-(6) npm install
+(6) cd node-backend
 
-(7) docker compose up & [Starts PostgreSQL]
+(7) npm install
 
-(8) npm run dev [Starts Express Backend]
+(8) docker compose up & [Starts PostgreSQL]
+
+(9) npm run dev [Starts Express Backend]
 
 
 ## Available Scripts
