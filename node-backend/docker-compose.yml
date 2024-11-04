@@ -1,0 +1,23 @@
+services:
+
+  db:
+    image: postgres
+    container_name: pgdb
+    restart: always
+    tty: true
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=1234
+    ports:
+      - "5432:5432"
+    networks:
+      - node-network
+
+networks:
+  node-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.127.0.0/16
+
