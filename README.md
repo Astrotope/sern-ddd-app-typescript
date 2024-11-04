@@ -16,7 +16,7 @@ You will need node 22 LTS, nvm, npm, and docker installed.
 
 (3) cd sern-ddd-app-typescript
 
-(8) docker compose up
+(8) docker compose --profile dev up
 
 ## Useful Links
 
